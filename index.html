@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myform</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>Contato</legend>
+
+          <label for="name">Nome</label>
+          <br>
+          <input type="text" id="name"  placeholder="digite seu nome" >
+          
+          <br>
+          <br>
+
+          <label for="email">Email</label>
+          <br>
+          <input type="email" id="email" placeholder="digite um email" pattern=".+@gmail.com\.com" title="por favor digite somente emails google." required>
+          <br>
+          <br>
+
+          <label for="senha">Senha</label>
+          <br>
+          <input id="senha" type="password" pattern="[0-9a-fA-f]{8,16}" placeholder="Digite sua senha" title="coloque sua senha com letras e numeros min.8 max.16 caracteres" required>
+          <br>
+          <br>
+
+          <label for="message">Mensagem</label>
+          <br>
+          <textarea name="message" id="message" cols="20" rows="10" placeholder="Digite sua mensagem"></textarea>
+          <br>
+          <br>
+
+          <button type="submit"> Enviar</button>
+        </fieldset>
+      </form>
+
+
+      <div >
+        <a href="https://github.com/deviego" display="flex">
+       <img height="150em" src="https://github-readme-stats.vercel.app/api?username=deviego&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide=prs,issues"/>
+       <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deviego&layout=compact&theme=radical&langs_count=7"/>
+  </div>
+    </main>
+  </body>
+</html>
